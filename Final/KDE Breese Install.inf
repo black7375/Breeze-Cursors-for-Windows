@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"alternate_select.cur"
+"handwriting.cur"
+"help.cur"
+"link.cur"
+"move.cur"
+"normal_select.cur"
+"precise_select.cur"
+"resize_di_1.cur"
+"resize_di_2.cur"
+"resize_hor.cur"
+"resize_ver.cur"
+"text.cur"
+"unavailable.cur"
+"Working.ani"
+"Working_in_bg.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\BreezeDark"
+SCHEME_NAME     = "KDE Breeze Dark"
+pointer			= "normal_select.cur"
+help			= "help.cur"
+work			= "Working_in_bg.ani"
+busy			= "Working.ani"
+cross			= "precise_select.cur"
+text			= "text.cur"
+hand			= "handwriting.cur"
+unavailable		= "unavailable.cur"
+vert			= "resize_ver.cur"
+horz			= "resize_hor.cur"
+dgn1			= "resize_di_1.cur"
+dgn2			= "resize_di_2.cur"
+move			= "move.cur"
+alternate		= "alternate_select.cur"
+link			= "link.cur"
