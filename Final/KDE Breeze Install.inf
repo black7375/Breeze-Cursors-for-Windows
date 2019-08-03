@@ -2,7 +2,7 @@
 signature="$CHICAGO$"
 
 [DefaultInstall]
-CopyFiles = Scheme.Cur, 
+CopyFiles = Scheme.Cur,
 AddReg    = Scheme.Reg
 
 [DestinationDirs]
@@ -34,18 +34,19 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 [Strings]
 CUR_DIR         = "Cursors\BreezeDark"
 SCHEME_NAME     = "KDE Breeze Dark"
-pointer			= "normal_select.cur"
-help			= "help.cur"
-work			= "Working_in_bg.ani"
-busy			= "Working.ani"
-cross			= "precise_select.cur"
-text			= "text.cur"
-hand			= "handwriting.cur"
-unavailable		= "unavailable.cur"
-vert			= "resize_ver.cur"
-horz			= "resize_hor.cur"
-dgn1			= "resize_di_1.cur"
-dgn2			= "resize_di_2.cur"
-move			= "move.cur"
-alternate		= "alternate_select.cur"
-link			= "link.cur"
+pointer         = "normal_select.cur"
+help            = "help.cur"
+work            = "Working_in_bg.ani"
+busy            = "Working.ani"
+cross           = "precise_select.cur"
+text            = "text.cur"
+hand            = "handwriting.cur"
+unavailable     = "unavailable.cur"
+vert            = "resize_ver.cur"
+horz            = "resize_hor.cur"
+dgn1            = "resize_di_1.cur"
+dgn2            = "resize_di_2.cur"
+move            = "move.cur"
+alternate       = "alternate_select.cur"
+link            = "link.cur"
+
