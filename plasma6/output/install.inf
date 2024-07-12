@@ -1,0 +1,53 @@
+; Breeze cursors
+
+[Version]
+signature="$CHICAGO$"
+Breeze 6.1
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Installed files
+
+[Scheme.Cur]
+default.cur
+help.cur
+wait.ani
+progress.ani
+text.cur
+not-allowed.cur
+size_ver.cur
+size_hor.cur
+size_fdiag.cur
+size_bdiag.cur
+all-scroll.cur
+pointer.cur
+crosshair.cur
+pencil.cur
+center_ptr.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Breeze 6.1"
+SCHEME_NAME   = "KDE Breeze 6.1"
+pointer       = "default.cur"
+help          = "help.cur"
+work          = "progress.ani"
+busy          = "wait.ani"
+text          = "text.cur"
+unavailable   = "not-allowed.cur"
+vert          = "size_ver.cur"
+horz          = "size_hor.cur"
+dgn1          = "size_fdiag.cur"
+dgn2          = "size_bdiag.cur"
+move          = "all-scroll.cur"
+link          = "pointer.cur"
+cross         = "crosshair.cur"
+hand          = "pencil.cur"
+alternate     = "center_ptr.cur"
